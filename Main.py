@@ -29,7 +29,7 @@ class LinkedList:
     print(elements)
   
 class Solution:
-   def addTwoNumbers(self, first_list: Optional[LinkedList], second_list:
+   def addTwoNumbers(self, first_list: Optional[LinkedList], second_list: 
     Optional[LinkedList]) -> Optional[LinkedList]:
     result = self.get_num(first_list) + self.get_num(second_list)
     sum_list = LinkedList()
